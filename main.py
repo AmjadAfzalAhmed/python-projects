@@ -10,3 +10,14 @@ print(fruits)
 print(new_fruits)
 new_fruits.pop()
 print(fruits)
+
+
+
+invitees = ['Alice','Bob','Charlie','David']
+
+def send_invitation(invitees):
+    message = "You are invited to my party, "
+    for invitee in invitees:
+        print('\n',message + invitee)
+
+send_invitation(invitees)
